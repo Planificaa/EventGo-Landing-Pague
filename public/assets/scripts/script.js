@@ -151,7 +151,7 @@ document.addEventListener('DOMContentLoaded', function() {
         loader.className = 'page-loader';
         loader.innerHTML = `
             <div class="loader-content">
-                <img src="EventGo-Landing-Pague/public/assets/images/eventgo-logo2.png" alt="EventGO Logo" />
+                <img src="https://github.com/Planificaa/EventGo-Landing-Pague/blob/main/public/assets/images/eventgo-logo2.png?raw=true" alt="EventGO Logo" />
                 <div class="loader-spinner"></div>
             </div>
         `;
