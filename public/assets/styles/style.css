@@ -384,3 +384,89 @@ nav ul a:hover {
     background-color: #5BC0BE;
     transition: all 0.3s ease;
 }
+/* Styles for About us Section*/
+.about-us {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #fff;
+    color: #000;
+    scroll-margin-top: 10vh;
+}
+
+.about-us h2{
+    color: #5BC0BE;
+    font-size: 2em;
+    text-align: center;
+    margin: 40px 0 8px 0;
+}
+
+.about-us h4 {
+    color: #000;
+    font-size: 1.25em;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 20px;
+    margin: 0 0 32px 0;
+}
+
+.about-us .startup-profile {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 100%;
+    margin-bottom: 48px;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us .startup-info {
+    font-size: 1em;
+    color: #000;
+    margin: 20px 0;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.about-us .startup-img {
+    width: 150px;
+    height: 150px;
+}
+
+.about-us .profile-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 48px;
+}
+
+.profile-list .profile-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    text-align: center;
+    margin: 10px;
+}
+
+.profile-item .profile-name {
+    color: #000;
+    font-weight: 500;
+    margin: 16px 0 0 0;
+}
+
+.profile-item .profile-role {
+    color: #5BC0BE;
+    font-weight: 500;
+}
+
+.about-us img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
