@@ -11,18 +11,19 @@
     <link rel="stylesheet" href="assets/styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <script defer src="assets/scripts/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
 <!-- Header Section -->
 <header>
     <nav>
-        <div class="logo"><a href="#hero"><img src="assets/images/EventGo-logo.png" alt="EventGo-logo"></a></div>
+        <div class="logo"><a href="#hero"><img src="assets/images/eventgo-logo2.png" alt="EventGo-logo"></a></div>
         <ul>
             <li><a href="#hero">Home</a></li>
             <li><a href="#benefits">Benefits</a></li>
             <li><a href="#functionalities">Functionalities</a></li>
             <li><a href="#plans">Plans</a></li>
-            <li><a href="#quienes-somos">About us</a></li>
+            <li><a href="#about-us">About us</a></li>
             <li><a href="#about-product">About the Product</a></li>
         </ul>
         <div class="language-switcher">
@@ -41,8 +42,8 @@
         <span class="slogan">Connect - Organize - Celebrate</span>
         <p class="description">A platform for hosts to find the ideal organizer, and organizers to grow their business</p>
         <div class="call-to-action">
-            <a class="btn-action" href="#">Find your organizer</a>
-            <a class="btn-action" href="#">Join as an organizer</a>
+            <a class="btn-action" href="javascript:void(0)" onclick="Swal.fire({title: 'Próximamente', text: 'La función de buscar organizadores está en desarrollo', icon: 'info', confirmButtonText: 'Entendido', confirmButtonColor: '#3085d6'});">Find your organizer</a>
+            <a class="btn-action" href="javascript:void(0)" onclick="Swal.fire({title: 'Próximamente', text: 'La función para unirse como organizador está en desarrollo', icon: 'info', confirmButtonText: 'Entendido', confirmButtonColor: '#3085d6'});">Join as an organizer</a>
         </div>
     </div>
 </section>
@@ -162,7 +163,7 @@
             <p class="profile-role">Software Engineer</p>
         </div>
         <div class="profile-item">
-            <img src="assets/images/foto_Deybbi.jpeg" alt="profile3" loading="lazy">
+            <img src="assets/images/foto_Deybbi.png" alt="profile3" loading="lazy">
             <p class="profile-name">Deybbi Anderson Crisanto Calle</p>
             <p class="profile-role">Software Engineer</p>
         </div>
@@ -190,8 +191,8 @@
         <h2>About the Team</h2>
         <h4>See how the idea was born, how we work and why we believe planning your event should be simple and exciting.</h4>
         <div class="call-to-action">
-            <a class="btn-action" href="https://eventify-webapp-frontend.web.app" target="_blank">Start managing your events today</a>
-            <a class="btn-action" href="https://eventify-webapp-frontend.web.app" target="_blank">Find your ideal organizer</a>
+            <a class="btn-action" href=" " target="_blank">Start managing your events today</a>
+            <a class="btn-action" href=" " target="_blank">Find your ideal organizer</a>
         </div>
     </div>
     <div class="video-about-the-team">
@@ -201,7 +202,7 @@
 <!-- Footer Section -->
 <footer>
     <div class="footer-content">
-        <img class="logo" src="./assets/images/EventGo-logo.png" alt="eventgo-logo">
+        <img class="logo" src="./assets/images/eventgo-logo2.png" alt="eventgo-logo">
         <div class="footer-contact">
             <span>Contacts</span>
             <p><i class="fa-solid fa-envelope"></i> eventgo@planificaa.com</p>
