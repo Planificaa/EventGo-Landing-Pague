@@ -1,0 +1,79 @@
+/* Styles for About the team Section*/
+
+.about-the-team {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 400px;
+    padding: 40px 20px;
+    background-color: #1C2541;
+    scroll-margin-top: 10vh;
+}
+
+.about-the-team .content{
+    flex: 1 1 400px;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.content .btn-action {
+    font-size: 1em;
+}
+
+.about-the-team h2 {
+    color: #5BC0BE;
+    font-size: 2em;
+    text-align: center;
+    margin: 40px 0 8px 0;
+}
+
+
+.about-the-team h4 {
+    margin: 0 0 32px 0;
+    font-size: 1.25em;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 20px;
+    color: #fff;
+}
+
+.video-about-the-team {
+
+    position: relative;
+    width: 60%;
+    max-width: 800px;
+    padding-bottom: 30%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-about-the-team iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.btn-action {
+    background-color: #3A506B;
+    padding: 16px 40px;
+    margin: 16px 0;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.btn-action:hover {
+    background-color: #5BC0BE;
+    transition: all 0.3s ease;
+}
